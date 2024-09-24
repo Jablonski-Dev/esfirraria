@@ -1,0 +1,1219 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Matemasie&display=swap');
+* {
+    margin:0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    
+        display: table;
+        width: 100%;
+        padding: 20px 0;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        background-image: url(imagens/Captura\ de\ tela\ 2024-09-10\ 073501.png);
+      
+}
+
+body {
+    background-color: #e20d0d;
+} 
+
+img {
+    padding: 30px;
+}
+
+.Suporte {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.logo {
+    display: contents;
+    padding-left: 100px;
+    align-items: center;
+    width: 500px;
+    color: #fff;
+    cursor:pointer;
+}
+
+.h2esfiha {
+    margin-left: -170px;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 70px;
+    top: 0;
+    color: #fff;
+    cursor:pointer;
+}
+
+.menuh {
+    list-style: none;
+    padding: 20px 0px 20px 0px;
+    background-color: #e20d0d;
+    align-items: center;
+    display: flex;
+}
+
+.menuh li {
+    display: inline;
+}
+
+.menuh li a {
+    color: #000;
+    padding: 10px;
+    display: flex;
+    display: inline;
+    font-size: 1.3rem;
+    color: rgb(000);
+    font-weight: 600;
+    text-decoration: none;
+    text-transform:uppercase;
+    position: relative;
+}
+
+.menuh a::after {
+    content: '';
+    width: 3.5rem;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.menuh a:hover::after {
+    opacity: 1;
+}
+
+.menuh a:hover {
+    color: #f3d9b2;
+}
+
+.banner {
+    background-image: linear-gradient(100deg, #000000, #00000020), url('imagens/capa.png');
+    /*define a imagem do fundo como uma gradiente de preto a preto claro e uma imagem de capa*/
+    height: 700px;
+    background-size: cover;
+    right: 150px;
+    padding: 200px 650px 0px 10px;
+    background-position: center;
+    background-image: url(imagens/montagem\ esfihas.png);
+}
+
+.txtbanner {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.txtbanner p {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.txtbanner h2{
+    color: #e7272d;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.txtbanner h1 {
+    color:#000;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.txtbanner a {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+}
+
+.txtbanner p{
+    color: #746767fe;
+}
+
+.align {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 3rem 0;
+
+}
+
+.base-conteudo {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    /*define um modelo de grade com 4 colunas de largura igual*/
+    gap: 3rem;
+    /*adiciona um espaço de 3rem entre as celulas da grade usando gap*/
+    padding: 3rem 0;
+    background-color: #000;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    gap: 2.0rem;
+    width: 300px;
+    background-color: white;
+    padding: 1.0rem 0;
+    box-shadow: 8px 4px rgb(19, 19, 19);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    /*define a direçao flexivel para coluna*/
+    gap: 0.5rem;
+}
+
+.conteudo span {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.conteudo p {
+    color: #d61616;
+    font-weight: 400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Matemasie&display=swap');
+.titulosobre {
+    
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+  margin-top: 1cm;
+}
+
+.just {
+    display: flex;
+    justify-content: center;
+    padding: 60px 200px 50px 150px;
+}
+
+.texto {
+    font-size: 15px;
+    text-align: justify;
+    align-items: center;
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+    
+}
+
+.img-esfiha{
+    border-left: 100px;
+    top: 1500px;
+}
+
+
+.tipo{
+    display: flex;
+    margin-bottom: 3rem;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: #eeadad;
+}
+
+.container-categoria {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 1cm;
+}
+
+.card-categoria {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+
+.categoria-cxf{
+    background-image: linear-gradient(#00000010, #00000080), url(imagens/Design\ sem\ nome\ \(14\).png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 350px;
+}
+
+.categoria-pizza{
+    background-image: linear-gradient(#00000010, #00000080), url(imagens/Design\ sem\ nome\ \(15\).png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 350px;
+}
+
+.categoria-cm12{
+    background-image: linear-gradient(#00000010, #00000080), url(imagens/Design\ sem\ nome\ \(17\).png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 350px;
+}
+
+
+
+.card-categoria p{
+    font-size: 2.5rem;
+    color: white;
+    text-transform: capitalize;/*coloca em maiusculo a primeira letra de cada palavra*/
+    position: relative;/*define a posiçao dos <p> como relativa oque nos permite posicionar o pseudo-elemento ::after de forma absoluta*/
+}
+
+.card-categoria p::after{
+    content: '';
+    width: 3.5rem;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, 50%);}
+
+    .card-categoria span{
+        font-size: 1.6rem;
+        color: #fff;
+        cursor: pointer;/*define o formato don cursor como uma mao, apontando ao passar o mause sobre os span*/
+
+    }
+
+    .card-categoria span:hover{
+        color: white;
+    }
+
+    
+   
+
+    .caixa-conteudo .box-text {
+        padding: 70px 84px;
+        border: 4px solid #fef846;
+        height:14.5cm ;
+        width: 15cm;
+        border-radius: 1rem;
+        margin-bottom: 2cm;
+    }
+
+    .caixa-conteudo{
+        margin-top: 2cm;
+        display: flex;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@402&display=swap');
+    .caixa-conteudo p{
+        text-align: center;
+        color: #fff;
+        font-family: "Kanit", sans-serif;
+        padding-top: 3rem
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&family=Roboto+Condensed:wght@402&display=swap');
+    .caixa-conteudo h2{
+        text-align: center;
+        color: #fff;
+        padding-bottom: 1rem;
+        font-family: "Permanent Marker", cursive;
+        padding-top: 1rem;
+    }
+
+    .conteudo-imagem{
+        position:absolute; 
+        top:1690px; 
+        left:820px;
+    }
+
+    /*****************************************************************/
+    /***********                       ICONES                   ******/
+    /*****************************************************************/
+    .principal-icones{
+        margin: 10px 65px;
+        background-color: #fef846;
+        margin: 0;
+        border-color: #000;
+        border-radius: 10px;
+        margin-bottom: 1cm;
+    }
+
+    .icones{
+        display: flex;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icones span{
+        color: #000;
+        padding-bottom: 1cm;
+        font-size: 1.3rem;
+        color: #000;
+        cursor: pointer;
+        font-weight: 10px;
+    }
+
+
+
+
+
+    .principal-icones .icones .refeicao {
+        vertical-align: baseline;
+        flex-direction: row;
+        align-items: center;
+        width: 200px;
+        padding: auto;
+        justify-content: center;
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        
+    }
+
+    .principal-icones .icones .refeicao span{
+        padding-left: 45px;
+    }
+
+    .principal-icones .icones .atendi {
+        vertical-align: baseline;
+        flex-direction: row;
+        align-items: center;
+        width: 200px;
+        justify-content: center;
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .principal-icones .icones .atendi span{
+        padding-left: 20px;
+    }
+
+    .principal-icones .icones .ambiente {
+        vertical-align: baseline;
+        flex-direction: row;
+        align-items: center;
+        width: 200px;
+        padding: auto;
+        justify-content: center;
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    
+    .principal-icones .icones .ambiente span{
+        padding-left: 30px;
+    }
+
+    .principal-icones .icones .acessivel {
+        vertical-align: baseline;
+        flex-direction: row;
+        align-items: center;
+        width: 200px;
+        padding: auto;
+        justify-content: center;
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .principal-icones .icones .acessivel span{
+        padding-left: 60px;
+    }
+
+    .principal-icones span{
+        font-size: 1.3rem;
+        color: #000;
+        cursor: pointer;/*define o formato don cursor como uma mao, apontando ao passar o mause sobre os span*/
+        margin-bottom: 1c;
+    }
+    .refeicao i{
+        margin-left: 90px;
+        font-size: 2em;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5cm;
+    }
+
+    .botton-txt{
+        margin-top: 30PX;
+        align-items: center;
+        margin-left: 60px;
+    
+    }
+
+  .atendi i{
+    margin-left: 90px;
+    font-size: 2em;
+    margin-top: 0.5rem;
+  }
+
+  .ambiente i{ 
+    margin-left: 90px;
+    font-size: 2em;
+    margin-top: 0.5rem;
+  }
+       
+  .acessivel i{ 
+    margin-left: 90px;
+    font-size: 2em;
+    margin-top: 0.5rem;
+  }
+
+  /**************************************************/
+    /**                 melhores produtos             */
+    /**************************************************/
+    
+    .top-products{
+        display: flex;/*definir um layout flexivel*/
+        flex-direction: column;/*direção dos itens é vertical (coluna)*/
+        gap: 2rem;/*espaçamento entre */
+        margin-bottom: 3rem;/*margen inferior*/
+    }
+
+    .container-options{
+        display: flex;
+        justify-content: center;/*centralizar os elementos ao longo do eixo principal*/
+        gap: 2rem;/*espaçamento entre os elementos filhos*/
+        margin-bottom: 1rem;/*margen inferior*/
+    }
+
+    .container-options span{
+        color: #d61616;/*cor do texto*/
+        background-color: #fef846;/*cor de fundo*/
+        padding: 0.7rem 3rem;
+        font-size: 1.4rem;
+        text-transform: capitalize;/*capitaliza o primeiro caractere de cada palavra*/
+        border-radius: 2rem;/*arredonda as bordas*/
+        cursor: pointer;/*muda o cursor*/
+    }
+
+    .container-options span:hover{
+        background-color: #000;
+        color: #fff;
+    }
+       
+/*****************************************************************/
+/***********                  produtos                      ******/
+/*****************************************************************/
+
+.heading-1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    color: white;
+}
+
+.container-produto{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);/*mantem 4 colunas em uma linha*/
+    gap:2rem;/*diminuir o espaço entre os cards*/
+    margin: 0px 50px 50px 50px;
+    margin-top: 1cm;
+}
+
+.card-product{
+    background-color: #fef846;
+    padding: 1.5rem 2rem;/*diminuir o pading para ajustar o tamanho*/
+    border-radius: 0.5em;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    width: 100%;/*garante que o card ocupe a largura da coluna*/
+}
+
+.container-img{
+    position: relative;
+}
+
+.container-img img{
+    width: 100%;
+}
+
+.container-img .discount{
+    position: absolute;
+    left: 0;
+    color: #d61616;
+    padding: 2px 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.card-product:hover .discount{
+    background-color: #000;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    position: absolute;
+    top: 0;
+    right: -3rem;
+    z-index: -1;/*define a sobreposiçao inicial*/
+    transition: all 0.4s ease;/*animação transição suave*/
+}
+
+.button-group span{
+    border: 1px solid #d61616;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.button-group span:hover {
+    background-color: #d61616;
+}
+
+.button-group span i{
+    font-size: 1.5rem;
+    color: #d61616;
+}
+
+.button-group span:hover i{
+    color: #fef846;
+}
+
+.card-product:hover .button-group{
+    z-index: 0;
+    right: -1rem;
+}
+
+.content-card-product{
+    display:grid;/*definir um layout de grade*/
+    justify-items: center;/*centraliza os intens horizontalmente*/
+    grid-template-columns: 1fr 1fr;/*cria duas colunas de tamanho igual*/
+    grid-template-rows: repeat(4, min-content);/*cria quatro linhas de altura*/
+    row-gap: 1rem;/*espaçamento vertical entre as linhas*/
+}
+
+.stars{
+    grid-row: 1/2;/*ele ocupa a primeira linha da grade*/
+    grid-column: 1/-1;/*ocupa todas as colunas da grade*/
+
+}
+
+.stars i{
+    font-size: 1.2rem;/*define o tamanho das estrelas*/
+    color: #000;/*define a cor das estrelas*/
+}
+
+.content-card-product h3{
+    grid-row: 2/3;/*ocupa a segunda linha da grade*/
+    grid-column: 1/-1;/*ocupa todas as colunas da grade*/
+    font-weight: 400;/*define o peso da fonte*/
+    font-size: 1.2rem;/*define o tamanho da fonte*/
+    margin-bottom: 1rem;/*define a margem inferior*/
+    cursor: pointer;/*muda o cursor*/
+}
+
+.content-card-product h3:hover{
+    color:#000;
+
+}
+
+.add-cart{
+    justify-self: start;/*alinha o botao ao inicio horizontalmente*/
+    border:2px solid #000;/*define uma borda ao redor do botao*/
+    padding: 1rem;
+    border-radius: 50%;/*define o formato circular nos canto*/
+    cursor: pointer;
+    transition: all 0.4s ease;/*transiçao suave ao alterar estilos*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-cart:hover{
+    background-color: #d61616;
+}
+
+.add-cart i{
+    font-size: 0.9rem;/*define o tamanho do icone*/
+    color:#000;
+}
+
+.add-cart:hover i{
+    color: #fef846;
+}
+
+.content-card-product .price{
+    justify-self: end;/*alinha o preço ao final horizontalmente*/
+    align-self: center;
+    font-size: 1.4rem;/*define o tamanho da fonte do preço*/
+    font-weight: 600;
+}
+
+.content-card-product .price span{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-decoration: line-through;/*aplica um risco sobre o preço*/
+    color: #000;
+    margin-left: 0.5rem;/*define uma margem a esquerda do preço original*/
+}
+
+
+    /***************************************************/
+    /**                  localização                  **/
+    /***************************************************/
+
+    .local{
+        display: flex;
+        gap:2rem;   
+    }
+
+    form{
+        width: 100%;/*define a largura do formulario como 100%*/
+        max-width: 400px;/*define a largura maxima do formulario*/
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    /***************************************************/
+    /**              informativo                      **/
+    /***************************************************/
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+
+    }
+    
+    .container-blogs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .card-blog {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 40px 20px 40px 590px;
+        padding: 20px 30px 60px 30px;
+        background-color: #F9F5F0;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+       
+    }
+
+    .card-blog .conta{
+        border-radius: 10p;
+        cursor:pointer;
+        overflow: hidden;/*oculta o conteudo que excede o container*/
+    }
+
+    .container-img{
+        border-radius: 10px;
+    }
+
+    .button-group-blog{
+        position:absolute;/*define a posiçao absoluta dos botoes*/
+        bottom: 1.2rem;
+        right: -2.5rem;/*inicilamente posiciona o grupo de botões a direita, fora da tela*/
+        display: flex;
+        gap: 0.7rem;
+        z-index: -1;/*coloca o grupo de botoes para tras do conteudo*/
+        transition: all 0.3s ease;/*adiciona uma transição suave de 0.3s*/
+    }
+
+    .card-blog:hover .button-group-blog{
+        z-index: 0;/*quando o cartao e sobreposto, traz o grupo de botoes para frente*/
+        right:1.5rem;/*move o grupo de botoes para a posiçao visivel a direita*/
+    }
+
+    .button-group-blog span{
+        background-color: #d61616;
+        padding: 1rem;
+        border-radius: 50%;
+        transition: all 0.4s ease;
+        display:flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .button-group-blog span i{
+        font-size:1.3rem ;
+    }
+
+    .button-group-blog span:hover i{
+        color: #fff;
+    }
+
+    .button-group-blog span:hover{
+        background-color: #000;
+    }
+
+    .content-blog h3{
+        font-size: 1.8rem;
+        margin-bottom: 1.2rem;
+        color:#d61616;
+        font-weight: 400;
+        
+    }
+
+    .content-blog h3:hover{
+        color: #000;
+        cursor: pointer;
+    }
+
+    .content-blog p{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        color: #000;
+    }
+
+    .content-blog span{
+        color: #d61616;
+        font-size: 1.3rem;
+    }
+
+    .btn-read-more{
+        padding: 1rem 3rem;
+        background-color: #ede502;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        border-radius: 2rem;
+        margin: 2rem 0 5rem;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .btn-read-more:hover{
+        background-color: #000;
+    }
+
+
+    /* ********************************** */
+/*               FOOTER               */
+/* ********************************** */
+
+.footer {
+	background-color: #fef846;
+}
+
+.container-footer {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	padding: 3rem;
+	background-color: #fef846;
+}
+
+.menu-footer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr) 30rem;
+	gap: 3rem;
+	justify-items: center;
+}
+
+.title-footer {
+	font-weight: 600;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+}
+
+.contact-info,
+.information,
+.my-account,
+.newsletter {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.contact-info ul,
+.information ul,
+.my-account ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.contact-info ul li,
+.information ul li,
+.my-account ul li {
+	list-style: none;
+	color: #000;
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+
+.information ul li a,
+.my-account ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 300;
+}
+
+.information ul li a:hover,
+.my-account ul li a:hover {
+	color: black;
+}
+
+.social-icons {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.social-icons span {
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-icons span i {
+	color: #000;
+	font-size: 1.4rem;
+}
+
+.facebook {
+	background-color: #3b5998;
+}
+
+.twitter {
+	background-color: #00acee;
+}
+
+.youtube {
+	background-color: #c4302b;
+}
+
+.pinterest {
+	background-color: #c8232c;
+}
+
+.instagram {
+	background: linear-gradient(
+		#405de6,
+		#833ab4,
+		#c13584,
+		#e1306c,
+		#fd1d1d,
+		#f56040,
+		#fcaf45
+	);
+}
+
+.content p {
+	font-size: 0.8rem;
+	color: #000;
+	font-weight: 300;
+}
+
+.content input {
+	outline: none;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #d2b495;
+	cursor: pointer;
+	padding: 0.5rem 0 1.2rem;
+	color: black;
+	display: block;
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+	width: 100%;
+	font-family: inherit;
+}
+
+.content input::-webkit-input-placeholder {
+	color: #000;
+}
+
+.content button {
+	border: none;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 1rem 3rem;
+	border-radius: 2rem;
+	font-size: 0.9rem;
+	font-family: inherit;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.content button:hover {
+	background-color:#695A49;
+	color: white;
+}
+
+.copyright {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2rem;
+	border-top: 1px solid #d2b495;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright p {
+	font-weight: 400;
+	font-size: 1.1rem;
+}
+
+/* ********************************** */
+/*       MEDIA QUERIES -- 768px       */
+/* ********************************** */
+@media (max-width: 768px) {
+	html {
+		font-size: 55%;
+	}
+
+	.hero {
+		padding: 2rem;
+	}
+
+	.customer-support {
+		display: none;
+	}
+
+	.content-shopping-cart {
+		display: none;
+	}
+
+	.navbar {
+		padding: 1rem 2rem;
+	}
+
+	.navbar .fa-bars {
+		display: block;
+		color: #fff;
+		font-size: 3rem;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.content-banner {
+		max-width: 50rem;
+		margin: 0 auto;
+		padding: 25rem 0;
+	}
+
+	.container-features {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 3rem 2rem;
+	}
+
+	.card-feature {
+		padding: 2rem;
+	}
+
+	.heading-1 {
+		font-size: 2.4rem;
+	}
+
+	.card-category {
+		height: 12rem;
+	}
+
+	.card-category p {
+		font-size: 2rem;
+		text-align: center;
+		line-height: 1;
+	}
+
+	.card-category span {
+		font-size: 1.4rem;
+	}
+
+	.container-options {
+		align-items: center;
+	}
+
+	.container-options span {
+		text-align: center;
+		padding: 1rem 2rem;
+	}
+
+	.container-products {
+		grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+	}
+
+	.gallery {
+		grid-template-rows: repeat(2, 15rem);
+	}
+
+	.container-blogs{
+		overflow: hidden;
+        display: grid;
+		grid-template-columns: 1fr 1fr;
+		height: 52rem;
+        justify-content: center;
+        align-items: center;
+	}
+
+	.menu-footer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.copyright {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 1.5rem;
+	}
+}
+
+
+/* ********************************** */
+/*       MEDIA QUERIES -- 468px       */
+/* ********************************** */
+@media (max-width: 468px) {
+	html {
+		font-size: 42.5%;
+	}
+
+	.content-banner {
+		max-width: 50rem;
+		padding: 22rem 0;
+	}
+
+	.heading-1 {
+		font-size: 2.8rem;
+	}
+
+	.card-feature {
+		flex-direction: column;
+		border-radius: 2rem;
+	}
+
+	.feature-content {
+		align-items: center;
+	}
+
+	.feature-content p {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+
+	.feature-content span {
+		font-size: 1.6rem;
+		text-align: center;
+	}
+
+	.container-options span {
+		font-size: 1.8rem;
+		padding: 1rem 1.5rem;
+		font-weight: 500;
+	}
+
+	.container-products {
+		grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+		gap: 1rem;
+	}
+
+	.container-img .discount {
+		font-size: 2rem;
+	}
+
+	.content-card-product h3 {
+		font-size: 2.2rem;
+	}
+
+	.gallery {
+		grid-template-rows: repeat(2, 20rem);
+	}
+
+	.blogs {
+		padding: 2rem;
+	}
+
+	.container-blogs {
+        display: grid;
+		grid-template-columns: 1fr;
+		height: 75rem;
+        margin-right: 350px;
+	}
+
+	.content-blog h3 {
+		font-size: 2.4rem;
+	}
+
+	.content-blog span {
+		font-size: 1.8rem;
+	}
+
+	.content-blog p {
+		font-size: 2.2rem;
+	}
+
+	.btn-read-more{
+		font-size: 1.8rem;
+	}
+
+	.contact-info ul,
+	.information ul,
+	.my-account ul{
+		display: none;
+	}
+
+	.contact-info {
+		align-items: center;
+	}
+
+	.menu-footer{
+		grid-template-columns: 1fr;
+	}
+
+	.content p{
+		font-size: 1.6rem;
+	}
+}
+
+
+
